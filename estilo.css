@@ -5,13 +5,45 @@
 }
 
 section{
-    background-color: rgb(136, 105, 58);
-    margin: 0 auto;
+    background-color: rgb(255 255 255);
+    width: 400px;
+    height: auto;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border:  solid 1.5px #1b3db9 ;
+    padding: 20px;
 }
 
 section h1{
-    color: brown;
+    color: #1b3db9;
+    margin-bottom: 10px;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+}
+
+section form label{
+    color: #1b3db9;
+}
+
+section form input{
+    border: solid 1px #1b3db9;
+    border-radius: 15px;
+    padding: 3px 5px;
+}
+
+section form button{
+    background-color: #1b3db9;
+    border: 0;
+    border-radius: 15px;
+    width: 90px;
+    padding: 5px;
+    color:#ffffff;
+    margin: 0 auto;
 }
